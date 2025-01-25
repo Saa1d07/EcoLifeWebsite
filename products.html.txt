@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoLife Solutions - المنتجات</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff; /* أبيض */
+            color: #333; /* أسود */
+            line-height: 1.6;
+        }
+
+        header {
+            background: #FFA500; /* برتقالي */
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        nav {
+            background: #333; /* أسود */
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+
+        nav a:hover {
+            color: #FFA500; /* برتقالي */
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #FFA500; /* برتقالي */
+            border-radius: 8px;
+            background: #fff;
+        }
+
+        ul li img {
+            width: 150px;
+            height: auto;
+            display: block;
+            margin: 0 auto 10px;
+        }
+
+        footer {
+            background: #333; /* أسود */
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>منتجاتنا الصديقة للبيئة</h1>
+    </header>
+    <nav>
+        <a href="index.html">الرئيسية</a>
+        <a href="products.html">المنتجات</a>
+        <a href="contact.html">اتصل بنا</a>
+    </nav>
+
+    <section>
+        <h2>منتجات EcoLife</h2>
+        <ul>
+            <li>
+                <img src="https://via.placeholder.com/150" alt="زجاجة ماء">
+                <p>زجاجة ماء قابلة لإعادة الاستخدام - $10</p>
+            </li>
+            <li>
+                <img src="https://via.placeholder.com/150" alt="أكياس قماشية">
+                <p>أكياس تسوق قماشية - $5</p>
+            </li>
+            <li>
+                <img src="https://via.placeholder.com/150" alt="فرشاة أسنان خشبية">
+                <p>فرشاة أسنان خشبية - $3</p>
+            </li>
+            <li>
+                <img src="https://via.placeholder.com/150" alt="أكواب قهوة">
+                <p>أكواب قهوة قابلة لإعادة الاستخدام - $8</p>
+            </li>
+            <li>
+                <img src="https://via.placeholder.com/150" alt="صابون طبيعي">
+                <p>ألواح صابون طبيعية - $7</p>
+            </li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>جميع الحقوق محفوظة &copy; 2025 EcoLife Solutions</p>
+    </footer>
+</body>
+</html>
