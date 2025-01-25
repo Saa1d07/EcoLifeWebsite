@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EcoLife Solutions - المنتجات</title>
+    <title>EcoLife Solutions - اتصل بنا</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -43,24 +43,41 @@
             text-align: center;
         }
 
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        ul li {
-            margin: 20px 0;
-            padding: 15px;
-            border: 1px solid #FFA500; /* برتقالي */
+        form {
+            margin: 20px auto;
+            max-width: 400px;
+            padding: 20px;
+            border: 1px solid #FFA500;
             border-radius: 8px;
-            background: #fff;
+            background-color: #fff;
         }
 
-        ul li img {
-            width: 150px;
-            height: auto;
+        form label {
             display: block;
-            margin: 0 auto 10px;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        form input,
+        form textarea,
+        form button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+
+        form button {
+            background: #FFA500; /* برتقالي */
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background: #FF8C00; /* برتقالي أغمق */
         }
 
         footer {
@@ -73,7 +90,7 @@
 </head>
 <body>
     <header>
-        <h1>منتجاتنا الصديقة للبيئة</h1>
+        <h1>اتصل بنا</h1>
     </header>
     <nav>
         <a href="index.html">الرئيسية</a>
@@ -82,29 +99,16 @@
     </nav>
 
     <section>
-        <h2>منتجات EcoLife</h2>
-        <ul>
-            <li>
-                <img src="https://via.placeholder.com/150" alt="زجاجة ماء">
-                <p>زجاجة ماء قابلة لإعادة الاستخدام - $10</p>
-            </li>
-            <li>
-                <img src="https://via.placeholder.com/150" alt="أكياس قماشية">
-                <p>أكياس تسوق قماشية - $5</p>
-            </li>
-            <li>
-                <img src="https://via.placeholder.com/150" alt="فرشاة أسنان خشبية">
-                <p>فرشاة أسنان خشبية - $3</p>
-            </li>
-            <li>
-                <img src="https://via.placeholder.com/150" alt="أكواب قهوة">
-                <p>أكواب قهوة قابلة لإعادة الاستخدام - $8</p>
-            </li>
-            <li>
-                <img src="https://via.placeholder.com/150" alt="صابون طبيعي">
-                <p>ألواح صابون طبيعية - $7</p>
-            </li>
-        </ul>
+        <h2>نموذج التواصل</h2>
+        <form action="#" onsubmit="alert('تم إرسال رسالتك بنجاح!'); return false;">
+            <label for="name">الاسم:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">البريد الإلكتروني:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">رسالتك:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <button type="submit">إرسال</button>
+        </form>
     </section>
 
     <footer>
