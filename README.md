@@ -64,3 +64,69 @@
     </footer>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منتجاتنا</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>منتجاتنا</h1>
+    </header>
+    <nav>
+        <a href="index.html">الرئيسية</a>
+        <a href="products.html">المنتجات</a>
+        <a href="contact.html">اتصل بنا</a>
+    </nav>
+    <section>
+        <h2>منتجات صديقة للبيئة</h2>
+        <ul>
+            <li>منتج 1 - وصف قصير - $10</li>
+            <li>منتج 2 - وصف قصير - $15</li>
+            <li>منتج 3 - وصف قصير - $20</li>
+            <li>منتج 4 - وصف قصير - $25</li>
+            <li>منتج 5 - وصف قصير - $30</li>
+        </ul>
+    </section>
+    <footer>
+        <p>جميع الحقوق محفوظة &copy; 2025 EcoLife Solutions</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اتصل بنا</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>اتصل بنا</h1>
+    </header>
+    <nav>
+        <a href="index.html">الرئيسية</a>
+        <a href="products.html">المنتجات</a>
+        <a href="contact.html">اتصل بنا</a>
+    </nav>
+    <section>
+        <h2>نموذج التواصل</h2>
+        <form action="#">
+            <label for="name">الاسم:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">البريد الإلكتروني:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">رسالتك:</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br>
+            <button type="submit">إرسال</button>
+        </form>
+    </section>
+    <footer>
+        <p>جميع الحقوق محفوظة &copy; 2025 EcoLife Solutions</p>
+    </footer>
+</body>
+</html>
