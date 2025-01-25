@@ -1,4 +1,4 @@
-# EcoLifeWebsite
+index.html
 <!DOCTYPE html>
 <html lang="ar">
 <head>
@@ -64,6 +64,7 @@
     </footer>
 </body>
 </html>
+products.html
 <!DOCTYPE html>
 <html lang="ar">
 <head>
@@ -96,6 +97,7 @@
     </footer>
 </body>
 </html>
+contact.html
 <!DOCTYPE html>
 <html lang="ar">
 <head>
