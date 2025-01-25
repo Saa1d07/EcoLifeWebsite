@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EcoLife Solutions - الرئيسية</title>
+    <title>EcoLife Solutions - المنتجات</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -43,6 +43,26 @@
             text-align: center;
         }
 
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #FFA500; /* برتقالي */
+            border-radius: 8px;
+            background: #fff;
+        }
+
+        ul li img {
+            width: 150px;
+            height: auto;
+            display: block;
+            margin: 0 auto 10px;
+        }
+
         footer {
             background: #333; /* أسود */
             color: white;
@@ -53,8 +73,7 @@
 </head>
 <body>
     <header>
-        <h1>مرحباً بكم في EcoLife Solutions</h1>
-        <p>حلول صديقة للبيئة من أجل مستقبل مستدام</p>
+        <h1>منتجاتنا الصديقة للبيئة</h1>
     </header>
     <nav>
         <a href="index.html">الرئيسية</a>
@@ -63,8 +82,29 @@
     </nav>
 
     <section>
-        <h2>عن شركتنا</h2>
-        <p>EcoLife Solutions هي شركة مخصصة لتقديم حلول مستدامة وصديقة للبيئة تساعدك في تحقيق أسلوب حياة صديق للبيئة.</p>
+        <h2>منتجات EcoLife</h2>
+        <ul>
+            <li>
+                <img src="https://via.placeholder.com/150" alt="زجاجة ماء">
+                <p>زجاجة ماء قابلة لإعادة الاستخدام - $10</p>
+            </li>
+            <li>
+                <img src="https://via.placeholder.com/150" alt="أكياس قماشية">
+                <p>أكياس تسوق قماشية - $5</p>
+            </li>
+            <li>
+                <img src="https://via.placeholder.com/150" alt="فرشاة أسنان خشبية">
+                <p>فرشاة أسنان خشبية - $3</p>
+            </li>
+            <li>
+                <img src="https://via.placeholder.com/150" alt="أكواب قهوة">
+                <p>أكواب قهوة قابلة لإعادة الاستخدام - $8</p>
+            </li>
+            <li>
+                <img src="https://via.placeholder.com/150" alt="صابون طبيعي">
+                <p>ألواح صابون طبيعية - $7</p>
+            </li>
+        </ul>
     </section>
 
     <footer>
